@@ -13,7 +13,8 @@ namespace TestConsoleApp
                 var todos = context.todos.ToList();
                 foreach(var todo in todos)
                 {
-                    Console.WriteLine(todo.TaskId, todo.TaskName);                    
+                    Console.WriteLine(todo.TaskId);
+                    Console.WriteLine(todo.TaskName);
                 }
                 Console.ReadLine();
             }
